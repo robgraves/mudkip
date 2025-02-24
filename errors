@@ -1,0 +1,16 @@
+mudkip.c: In function ‘main’:
+mudkip.c:45:20: warning: unused variable ‘DEAD_ZONE’ [-Wunused-variable]
+   45 |     int            DEAD_ZONE  =  1;
+      |                    ^~~~~~~~~
+mudkip.c:302:71: warning: ‘missilepos’ may be used uninitialized [-Wmaybe-uninitialized]
+  302 |                                                         mlist -> pos  = missilepos;
+      |                                                         ~~~~~~~~~~~~~~^~~~~~~~~~~~
+mudkip.c:41:24: note: ‘missilepos’ declared here
+   41 |         SDL_Rect       missilepos;
+      |                        ^~~~~~~~~~
+mudkip.c:316:70: warning: ‘missilepos’ may be used uninitialized [-Wmaybe-uninitialized]
+  316 |                                                         mtmp -> pos  = missilepos;
+      |                                                         ~~~~~~~~~~~~~^~~~~~~~~~~~
+mudkip.c:41:24: note: ‘missilepos’ declared here
+   41 |         SDL_Rect       missilepos;
+      |                        ^~~~~~~~~~
